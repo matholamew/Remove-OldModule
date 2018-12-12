@@ -2,13 +2,20 @@ function Remove-OldModule {
     <#
     .SYNOPSIS
         Removes (uninstalls) the old versions of specified module.
+
     .DESCRIPTION
         Uninstalls all of the old versions of a specified module, keeps the most recent version
             of the module.
         Must be run as admin.
         Currently only runs on local machine.
+
+    .PARAMETER Module
+        The module to remove.
+
     .EXAMPLE
         Remove-OldModule -Module dbatools
+
+        Removes the old version(s) of the dbatools module.
     #>
 
     Param(
