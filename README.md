@@ -15,3 +15,5 @@ Clone or download the repo.
 ### Examples
 
 Remove-OldModule -Module dbatools
+
+Removes the old version(s) of the dbatools module.
